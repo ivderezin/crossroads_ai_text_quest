@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.config.dart"
+    - lib/core/l10n/gen/**
+  errors:
+    # Freezed: @JsonSerializable on the factory configures the generated class.
+    invalid_annotation_target: ignore

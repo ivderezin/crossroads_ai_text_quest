@@ -1,0 +1,53 @@
+name: crossroads_ai_text_quest
+description: "AI-generated interactive text quests powered by Claude or GPT."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  bloc_concurrency: ^0.3.0
+  country_flags: ^4.1.2
+  cupertino_icons: ^2.0.0
+  dio: ^5.11.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_edge_ai: ^2.3.3
+  flutter_edge_ai_mediapipe: ^1.2.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_localized_locales: ^2.0.5
+  flutter_secure_storage: ^11.2.0
+  freezed_annotation: ^3.1.0
+  get_it: ^9.3.0
+  go_router: ^18.1.0
+  injectable: ^3.0.0
+  intl: ^0.20.3
+  json_annotation: ^4.12.0
+  retrofit: ^4.10.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  freezed: ^4.0.1
+  json_serializable: ^6.14.1
+  build_runner: ^2.16.1
+  injectable_generator: ^3.1.3
+  retrofit_generator: ^10.2.12
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+flutter_launcher_icons:
+  image_path: assets/icon/app_icon.png
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  adaptive_icon_background: "#161926"
+  adaptive_icon_foreground: assets/icon/app_icon_foreground.png

@@ -1,0 +1,202 @@
+{
+  "@@locale": "en",
+  "appTitle": "Crossroads",
+  "homeHeadline": "Every choice —\na new story.",
+  "homeSubtitle": "Imagine a world. Decide who to be.\nLet the story respond to your actions.",
+  "homeFooter": "Stories are written by the narrator you choose: in the cloud or on this device.\nProgress is saved after every turn.",
+  "settingsTooltip": "Settings",
+  "resumeOngoing": "Your story awaits",
+  "resumeCompleted": "Your latest story",
+  "resumeProgressSaved": "Scene {scene} · Progress saved",
+  "@resumeProgressSaved": {
+    "placeholders": {
+      "scene": {
+        "type": "int"
+      }
+    }
+  },
+  "resumeProgressCompleted": "Scene {scene} · Completed",
+  "@resumeProgressCompleted": {
+    "placeholders": {
+      "scene": {
+        "type": "int"
+      }
+    }
+  },
+  "resumeContinue": "Continue",
+  "resumeRead": "Read the story",
+  "setupTitle": "Connect an AI narrator",
+  "setupBody": "Add a Claude or GPT API key, or download a model from Hugging Face to run on this device.",
+  "openSettings": "Open settings",
+  "promptTitle": "What will your quest be about?",
+  "promptHint": "For example: a detective story in a city of the future. I'm a mechanic looking for my missing sister. No violence, with riddles and an unexpected ending.",
+  "themeFantasy": "Fantasy",
+  "themeSpace": "Space",
+  "themeMystery": "Mystery",
+  "createQuest": "Create quest",
+  "promptLanguageNote": "The story is told in the language you write in.",
+  "replaceDialogTitle": "Start a new story?",
+  "replaceDialogBody": "Your current save will be replaced once the new scene is ready.",
+  "cancel": "Cancel",
+  "start": "Start",
+  "generating": "The narrator is thinking about the story…",
+  "sceneCounter": "Scene {current} / {total}",
+  "@sceneCounter": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "whatWillYouDo": "What will you do?",
+  "customActionLabel": "Or suggest your own action",
+  "customActionSubmit": "Do it my way",
+  "endingTitle": "The end of this story",
+  "endingBody": "Your decisions remain in the quest journal.",
+  "newStory": "New story",
+  "autosaved": "Saved automatically",
+  "configureToContinue": "Set up an AI provider to continue",
+  "journalTitle": "Quest journal",
+  "journalChoice": "Your choice: {action}",
+  "@journalChoice": {
+    "placeholders": {
+      "action": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "sectionNarrator": "AI narrator",
+  "providerVendor": "by {vendor}",
+  "@providerVendor": {
+    "placeholders": {
+      "vendor": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeyLabel": "API key",
+  "apiKeyHelper": "Stored in the device's secure storage",
+  "apiKeyWhere": "Get a key: {url}",
+  "@apiKeyWhere": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "showKey": "Show key",
+  "hideKey": "Hide key",
+  "modelLabel": "Model",
+  "modelPick": "Choose a model",
+  "modelsAvailable": "Available models",
+  "modelsSuggested": "Suggested models",
+  "baseUrlLabel": "API base URL",
+  "baseUrlHelper": "Change only for a proxy or compatible gateway",
+  "resetBaseUrl": "Reset to default",
+  "saveSettings": "Save",
+  "settingsSaved": "Settings saved",
+  "checkConnection": "Check connection",
+  "connectionOk": "Connected · {count, plural, =0{no models listed} one{1 model available} other{{count} models available}}",
+  "@connectionOk": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "providerReady": "{provider} · {model}",
+  "@providerReady": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      },
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "providerMissing": "AI not set up",
+  "privacyNote": "Your quest wishes, actions and story summary are sent to the selected provider to write each scene. Usage is billed to your API account.",
+  "sectionLanguage": "Language",
+  "appLanguageLabel": "App language",
+  "appLanguageSystem": "System",
+  "themeNote": "Light and dark themes follow your system settings.",
+  "errorNotConfigured": "Add an API key in settings to use the AI narrator.",
+  "errorUnauthorized": "The API key was rejected. Check it in settings.",
+  "errorRateLimited": "Too many requests or the quota is exhausted. Try again later.",
+  "errorServer": "The AI service is temporarily unavailable. Try again.",
+  "errorProviderRequest": "The provider rejected the request: {details}",
+  "@errorProviderRequest": {
+    "placeholders": {
+      "details": {
+        "type": "String"
+      }
+    }
+  },
+  "errorProviderRequestGeneric": "The provider rejected the request. Check the model name and base URL.",
+  "errorNetwork": "No connection to the AI service. Check your internet connection.",
+  "errorTimeout": "The model took too long to respond. Try again.",
+  "errorRefusal": "The model declined to write this scene. Try a different action.",
+  "errorInvalidResponse": "The model returned an invalid scene. Try again.",
+  "errorStorage": "Couldn't save data on the device. Try again.",
+  "errorCorruptedSave": "The save is damaged. You can start a new quest.",
+  "errorInvalidPrompt": "Describe the quest in 1 to 1000 characters.",
+  "errorInvalidAction": "Choose an available action.",
+  "errorUnexpected": "Something went wrong. Your progress is saved.",
+  "narratorOnDevice": "On device",
+  "languageAutoValue": "{mode} · {language}",
+  "@languageAutoValue": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "languageSearch": "Search languages",
+  "privacyNoteLocal": "On-device models run without internet once downloaded. Nothing you write leaves the device.",
+  "localModelsNote": "Models are downloaded from Hugging Face once and then work offline. Scenes are generated on the phone's CPU and can take minutes; larger models need more free memory and write better stories.",
+  "hfTokenLabel": "Hugging Face token",
+  "hfTokenHelper": "Needed for gated models (Gemma): accept the license on the model page, then use a read token. Used only for the download and not saved.",
+  "localModelSize": "≈ {size} MB",
+  "@localModelSize": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "localModelGated": "license required",
+  "localModelDownloaded": "Downloaded",
+  "downloadModel": "Download",
+  "cancelDownload": "Cancel download",
+  "deleteModel": "Delete",
+  "deleteModelTitle": "Delete {name}?",
+  "@deleteModelTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteModelBody": "The model file will be removed from the device. You can download it again later.",
+  "customModelTitle": "Your model from Hugging Face",
+  "customModelUrlLabel": "Link to a .task file",
+  "customModelUrlHelper": "huggingface.co/<owner>/<repo>/resolve/main/<file>.task",
+  "customModelUrlInvalid": "Only direct .task links from huggingface.co are supported",
+  "customModelLocked": "Delete the downloaded model to replace it",
+  "customModelFamily": "Prompt format",
+  "customModelAdd": "Add",
+  "localFamilyOther": "Other",
+  "errorModelNotInstalled": "Download the selected model in settings first.",
+  "errorModelAccessDenied": "Hugging Face denied access. Accept the model license on its page and enter a token with read access.",
+  "errorModelNotFound": "The model file was not found on Hugging Face. Check the link.",
+  "errorDownloadCancelled": "Download cancelled.",
+  "errorOnDevice": "Couldn't run the model on this device. Close other apps to free memory or choose a smaller model."
+}
